@@ -1,0 +1,22 @@
+# main links links
+main:
+#  - title: "Publications"
+#    url: /publications/
+    
+  - title: "Blog"
+    url: https://blog.dwgan.top
+    
+# - title: "CV"
+#   url: /cv/
+    
+#  - title: "Awards"
+#    url: /awards/
+    
+#  - title: "News"
+#    url: /news/
+    
+#  - title: "Misc"
+#    url: /misc/
+
+#  - title: "Blog Posts"
+#    url: /year-archive/
