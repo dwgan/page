@@ -16,7 +16,7 @@ My name is **Dongwen Gan** (**甘东文**). I am recently a Application Engineer
 
 I received the Master degree from [**Xidian University**](https://www.xidian.edu.cn/), China, in Jun. 2023. I spent a wonderful time working closely with Prof. Lei Quan  and Prof. Kai Xie at [GATE](https://faculty.xidian.edu.cn/XK3/zh_CN/index.htm) Lab. Previously, I received the B.E. degree from Xidian University, China, in Jun. 2020.
 
-My recent research interests include **Compressed Sensing**, **Deep Learning**, **Smart Industrial** and **Wireless Communication**. Learn more about my [research](/research/).
+My recent research interests include **Deep Compressed Sensing**, **Edge AI**, **Smart Industrial** and **Wireless Communication**. Learn more about my [research](/research/).
 
 # Scholarships and Honors
 
@@ -75,17 +75,17 @@ Submitted to [Solar Energy | Journal | ScienceDirect.com by Elsevier](https://ww
 [In processing]
 
 
-[9] **一种低频磁性接收天线的设计方法**, CN114122708B, 2022-11-29.
+[9] **一种低频磁性接收天线的设计方法**, CN114122708B (已授权), 2022-11-29.
 
-[10] **基于正交调制的光伏电池能效图测量方法**, CN113824400B, 2023-08-22.
+[10] **基于正交调制的光伏电池能效图测量方法**, CN113824400B (已授权), 2023-08-22.
 
-[11] **一种实时双内核单机半实物仿真架构及仿真方法**, CN112131741B, 2024-01-30.
+[11] **一种实时双内核单机半实物仿真架构及仿真方法**, CN112131741B (已授权), 2024-01-30.
 
 
 # Skills
 
 
-* Deep Learning
 * High Reliable Embedded System Development and Circuit Design
-* Programming Language: Python, C, MATLAB, Verilog
-* OS: Windows, Linux, RTOS
+* Neural Network: Architecture Design, Model Optimization, and Edge AI Implementation
+* Programming Language: Python, C, C#, MATLAB, Verilog
+* OS: Windows, Linux, Embedded Linux, RTOS
