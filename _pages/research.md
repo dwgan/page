@@ -8,8 +8,6 @@ author_profile: true
 {% include base_path %}
 
 
-# Research Interest
-
 My research is primarily centered around those key areas: **Compressed Sensing**, **Deep Learning**, **Smart Industrial** and **Intelligent Communication System for Aircraft**.
 
 
