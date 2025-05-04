@@ -20,11 +20,11 @@ My recent research interests include **Compressed Sensing**, **Deep Learning**, 
 
 # Scholarships and Honors
 
-* 2019 National Encouragement Scholarship, Department of Education of Shaanxi Province
-* 2022 National Scholarship, Ministry of Education of the People's Republic of China.
-* 2022 CASC Scholarship, China Aerospace Science and Technology Corporation (CASC).
-* 2019 National Undergraduate Electronics Design Contest, Department of Education of Shaanxi Province
-* 2021 China Graduate Future Flight Vehicle Innovation Competition.
+* 2022 National Scholarship (国家奖学金), Ministry of Education of the People's Republic of China.
+* 2019 National Encouragement Scholarship (国家励志奖学金), Department of Education of Shaanxi Province
+* 2022 CASC Scholarship (中国航天科技集团公司奖学金), China Aerospace Science and Technology Corporation (CASC).
+* 2019 National Undergraduate Electronics Design Contest (全国大学生电子设计大赛), Department of Education of Shaanxi Province
+* 2021 China Graduate Future Flight Vehicle Innovation Competition (中国研究生未来飞行器创新大赛).
 * 2022 Academic English Communication and Writing Skills Program, Cambridge, Upper Second Class.
 * 2024 Top 30 Digital Intelligence Application Award, Guangzhou Electrical Building Technology Committee and Alighting Award Committee
 
