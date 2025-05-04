@@ -3,6 +3,8 @@ main:
 #  - title: "Publications"
 #    url: /publications/
     
+  - title: "Research"
+    url: /research/
   - title: "Blog"
     url: https://blog.dwgan.top
     
