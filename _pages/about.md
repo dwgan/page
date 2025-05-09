@@ -10,15 +10,15 @@ redirect_from:
 
 
 
-Hi there, wellcome to my homepage!
+# Biography
 
-My name is **Dongwen Gan** (**甘东文**). I am recently a Application Engineer at [**STMicroelectronics**](https://www.st.com/) (Shenzhen), since Jun. 2023.
+**Dongwen Gan** (**甘东文**) is currently a Application Engineer at [**STMicroelectronics**](https://www.st.com/) (Shenzhen), since June 2023.
 
-I received the Master degree from [**Xidian University**](https://www.xidian.edu.cn/), China, in Jun. 2023. I spent a wonderful time working closely with Prof. Lei Quan  and Prof. Kai Xie at [GATE](https://faculty.xidian.edu.cn/XK3/zh_CN/index.htm) Lab. Previously, I received the B.E. degree from Xidian University, China, in Jun. 2020.
+He received the Master degree from [**Xidian University**](https://www.xidian.edu.cn/) in June 2023, where he worked closely with Prof. Lei Quan  and Prof. Kai Xie at [GATE](https://faculty.xidian.edu.cn/XK3/zh_CN/index.htm) Lab. Previously, he received the B.E. degree from Xidian University in June 2020.
 
-My recent research interests include **Deep Compressed Sensing**, **Edge AI**, **Smart Industrial** and **Wireless Communication**. Learn more about my [research](/research/).
+His research focus on **Deep Compressed Sensing**, **Edge AI**, **Smart Industrial System** and **Wireless Communication**. Further details about his work can be found on [research page](/research/).
 
-# Scholarships and Honors
+# Honors
 
 * 2022 National Scholarship (国家奖学金), Ministry of Education of the People's Republic of China.
 * 2019 National Encouragement Scholarship (国家励志奖学金), Department of Education of Shaanxi Province
@@ -81,6 +81,10 @@ Submitted to [Solar Energy | Journal | ScienceDirect.com by Elsevier](https://ww
 
 [11] **一种实时双内核单机半实物仿真架构及仿真方法**, CN112131741B (已授权), 2024-01-30.
 
+# Reviewer Service
+
+* IEEE Sensors Letters
+* The Journal of Supercomputing
 
 # Skills
 
