@@ -1,11 +1,7 @@
 ---
 permalink: /
 title: "Biography"
-# excerpt: "Learn more about me"
 author_profile: true
-# redirect_from: 
-#   - /about/
-#   - /about.html
 ---
 
 
@@ -29,55 +25,55 @@ His research lies on **Deep Compressed Sensing**, **Edge AI**, **Smart Industria
 
 # Publications
 
-[1] **Perturbed Compressed Sensing-based Anti noise Defect Detection for Photovoltaic Cells**\
+* **Perturbed Compressed Sensing-based Anti noise Defect Detection for Photovoltaic Cells**\
 **Dongwen Gan**, Supervisor: Lei Quan\
 _Thesis submitted to Xidian University_, 2023\
 [Thesis](https://github.com/dwgan/page/releases/download/v1.0.0/default.pdf)
 
 
-[2] **Orthogonal modulation based light beam induced current method for anti-noise defect detection in photovoltaic cells**\
+* **Orthogonal modulation based light beam induced current method for anti-noise defect detection in photovoltaic cells**\
 **Dongwen Gan**, Lei Quan, Fan Zhu, Kai Xie, and Junmei Bai\
 _Solar Energy_, 2022 (IF: 7.188)\
 [[Paper]](https://github.com/dwgan/page/releases/download/v1.0.0/1-s2.0-S0038092X22006089-main.pdf)
 
 
-[3] **Multispectral compressive light beam induced current method for photovoltaic cell assessment**\
+* **Multispectral compressive light beam induced current method for photovoltaic cell assessment**\
 Fan Zhu, Kai Xie, Lei Quan, and **Dongwen Gan**\
 _Solar Energy_, 2024 (IF: 6.7)\
 [[Paper]](https://github.com/dwgan/page/releases/download/v1.0.0/1-s2.0-S0038092X24003165-main.pdf)
 
 
-[4] **Pseudo-random sequence coded electroluminescence imaging for photovoltaic module inspection under outdoor ambient light**\
+* **Pseudo-random sequence coded electroluminescence imaging for photovoltaic module inspection under outdoor ambient light**\
 Fan Zhu, Kai Xie, **Dongwen Gan**, Lei Quan, and Jingyi Zhu\
 _IEEE Journal of Photovoltaics - IEEE Photonics Society_\
 [Paper](https://github.com/dwgan/page/releases/download/v1.0.0/Pseudorandom_Sequence_Coded_Electroluminescence_Imaging_for_Photovoltaic_Module_Inspection_Under_Strong_Environmental_Light.pdf)
 
 
-[5] **The fast compressed light-beam-induced current method for solar cells detection based on the structural random matrix**\
+* **The fast compressed light-beam-induced current method for solar cells detection based on the structural random matrix**\
 Fan Zhu, Kai Xie, Lei Quan, **Dongwen Gan**, and Siyu Zhao\
 Submitted to [Solar Energy | Journal | ScienceDirect.com by Elsevier](https://www.sciencedirect.com/journal/solar-energy) [Under review]
 
 
-[6] **Perturbed compressive-based light beam induced current method for anti-noise defect detection in photovoltaic cells**\
+* **Perturbed compressive-based light beam induced current method for anti-noise defect detection in photovoltaic cells**\
 Zhikuan Zhao, Lei Quan, **Dongwen Gan**, Siyu Zhao, Ruiyang Zhuang\
 Submitted to [Solar Energy | Journal | ScienceDirect.com by Elsevier](https://www.sciencedirect.com/journal/solar-energy) [Under review]
 
 <!-- 
-[7] **FastPCS: On the Equivalence of Perturbed Compressed Sensing Algorithm**\
+* **FastPCS: On the Equivalence of Perturbed Compressed Sensing Algorithm**\
 **Dongwen Gan**\
 [In processing]
 
 
-[8] **MambaCS: SSM-based architecture for Image Compressed Sensing**\
+* **MambaCS: SSM-based architecture for Image Compressed Sensing**\
 **Dongwen Gan**\
 [In processing]
  -->
 
-[7] **一种低频磁性接收天线的设计方法**, CN114122708B (已授权), 2022-11-29.
+* **一种低频磁性接收天线的设计方法**, CN114122708B (已授权), 2022-11-29.
 
-[8] **基于正交调制的光伏电池能效图测量方法**, CN113824400B (已授权), 2023-08-22.
+* **基于正交调制的光伏电池能效图测量方法**, CN113824400B (已授权), 2023-08-22.
 
-[9] **一种实时双内核单机半实物仿真架构及仿真方法**, CN112131741B (已授权), 2024-01-30.
+* **一种实时双内核单机半实物仿真架构及仿真方法**, CN112131741B (已授权), 2024-01-30.
 
 # Reviewer Service
 
