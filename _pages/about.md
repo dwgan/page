@@ -1,7 +1,7 @@
 ---
 permalink: /
-#title: "About me"
-excerpt: "Learn more about me"
+title: "Biography"
+# excerpt: "Learn more about me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,13 +10,11 @@ redirect_from:
 
 
 
-# Biography
-
 **Dongwen Gan** (**甘东文**) is currently a Application Engineer at [**STMicroelectronics**](https://www.st.com/) (Shenzhen), since June 2023.
 
 He received the Master degree from [**Xidian University**](https://www.xidian.edu.cn/) in June 2023, where he worked closely with Prof. Lei Quan  and Prof. Kai Xie at [GATE](https://faculty.xidian.edu.cn/XK3/zh_CN/index.htm) Lab. Previously, he received the B.E. degree from Xidian University in June 2020.
 
-His research focus on **Deep Compressed Sensing**, **Edge AI**, **Smart Industrial System** and **Wireless Communication**. Further details about his work can be found on [research page](/research/).
+His research lies on **Deep Compressed Sensing**, **Edge AI**, **Smart Industrial System** and **Wireless Communication**. Further details about his work can be found on [research page](/research/).
 
 # Honors
 
