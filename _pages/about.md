@@ -64,7 +64,7 @@ Submitted to [Solar Energy | Journal | ScienceDirect.com by Elsevier](https://ww
 Zhikuan Zhao, Lei Quan, **Dongwen Gan**, Siyu Zhao, Ruiyang Zhuang\
 Submitted to [Solar Energy | Journal | ScienceDirect.com by Elsevier](https://www.sciencedirect.com/journal/solar-energy) [Under review]
 
-
+<!-- 
 [7] **FastPCS: On the Equivalence of Perturbed Compressed Sensing Algorithm**\
 **Dongwen Gan**\
 [In processing]
@@ -73,13 +73,13 @@ Submitted to [Solar Energy | Journal | ScienceDirect.com by Elsevier](https://ww
 [8] **MambaCS: SSM-based architecture for Image Compressed Sensing**\
 **Dongwen Gan**\
 [In processing]
+ -->
 
+[7] **一种低频磁性接收天线的设计方法**, CN114122708B (已授权), 2022-11-29.
 
-[9] **一种低频磁性接收天线的设计方法**, CN114122708B (已授权), 2022-11-29.
+[8] **基于正交调制的光伏电池能效图测量方法**, CN113824400B (已授权), 2023-08-22.
 
-[10] **基于正交调制的光伏电池能效图测量方法**, CN113824400B (已授权), 2023-08-22.
-
-[11] **一种实时双内核单机半实物仿真架构及仿真方法**, CN112131741B (已授权), 2024-01-30.
+[9] **一种实时双内核单机半实物仿真架构及仿真方法**, CN112131741B (已授权), 2024-01-30.
 
 # Reviewer Service
 
