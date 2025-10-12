@@ -48,6 +48,7 @@ Fan Zhu, Kai Xie, **Dongwen Gan**, Lei Quan, and Jingyi Zhu\
 _IEEE Journal of Photovoltaics - IEEE Photonics Society_\
 [Paper](https://github.com/dwgan/page/releases/download/v1.0.0/Pseudorandom_Sequence_Coded_Electroluminescence_Imaging_for_Photovoltaic_Module_Inspection_Under_Strong_Environmental_Light.pdf)
 
+<!-- 
 
 * **The fast compressed light-beam-induced current method for solar cells detection based on the structural random matrix**\
 Fan Zhu, Kai Xie, Lei Quan, **Dongwen Gan**, and Siyu Zhao\
@@ -58,7 +59,6 @@ Submitted to [Solar Energy | Journal | ScienceDirect.com by Elsevier](https://ww
 Zhikuan Zhao, Lei Quan, **Dongwen Gan**, Siyu Zhao, Ruiyang Zhuang\
 Submitted to [Solar Energy | Journal | ScienceDirect.com by Elsevier](https://www.sciencedirect.com/journal/solar-energy) [Under review]
 
-<!-- 
 * **FastPCS: On the Equivalence of Perturbed Compressed Sensing Algorithm**\
 **Dongwen Gan**\
 [In processing]
