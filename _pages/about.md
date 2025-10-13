@@ -6,11 +6,11 @@ author_profile: true
 
 
 
-**Dongwen Gan** (**甘东文**) is currently a Application Engineer at [**STMicroelectronics**](https://www.st.com/) (Shenzhen), since June 2023.
+**Dongwen Gan** (**甘东文**) is currently an Application Engineer at [**STMicroelectronics**](https://www.st.com/) (Shenzhen), since June 2023.
 
-He received the Master degree from [**Xidian University**](https://www.xidian.edu.cn/) in June 2023, where he worked closely with Prof. Lei Quan  and Prof. Kai Xie at [GATE](https://faculty.xidian.edu.cn/XK3/zh_CN/index.htm) Lab. Previously, he received the B.E. degree from Xidian University in June 2020.
+He received the Master's degree from [**Xidian University**](https://www.xidian.edu.cn/) in June 2023, where he worked closely with Prof. Lei Quan  and Prof. Kai Xie at [GATE](https://faculty.xidian.edu.cn/XK3/zh_CN/index.htm) Lab. Previously, he received the B.E. degree from Xidian University in June 2020.
 
-His research lies on **Deep Compressed Sensing**, **Edge AI**, **Smart Industrial System** and **Wireless Communication**. Further details about his work can be found on [research page](/research/).
+His research lies in **Deep Compressed Sensing**, **Edge AI**, **Smart Industrial System**, and **Wireless Communication**. Further details about his work can be found on [research page](/research/).
 
 # Honors
 
@@ -25,13 +25,13 @@ His research lies on **Deep Compressed Sensing**, **Edge AI**, **Smart Industria
 
 # Publications
 
-* **Perturbed Compressed Sensing-based Anti noise Defect Detection for Photovoltaic Cells**\
+* **Perturbed Compressed Sensing-based Anti-noise Defect Detection for Photovoltaic Cells**\
 **Dongwen Gan**, Supervisor: Lei Quan\
 _Thesis submitted to Xidian University_, 2023\
 [Thesis](https://github.com/dwgan/page/releases/download/v1.0.0/default.pdf)
 
 
-* **Orthogonal modulation based light beam induced current method for anti-noise defect detection in photovoltaic cells**\
+* **Orthogonal modulation-based light beam induced current method for anti-noise defect detection in photovoltaic cells**\
 **Dongwen Gan**, Lei Quan, Fan Zhu, Kai Xie, and Junmei Bai\
 _Solar Energy_, 2022 (IF: 7.188)\
 [[Paper]](https://github.com/dwgan/page/releases/download/v1.0.0/1-s2.0-S0038092X22006089-main.pdf)
@@ -83,7 +83,7 @@ Submitted to [Solar Energy | Journal | ScienceDirect.com by Elsevier](https://ww
 # Skills
 
 
-* High Reliable Embedded System Development and Circuit Design
+* High-Reliability Embedded System Development and Circuit Design
 * Neural Network: Architecture Design, Model Optimization, and Edge AI Implementation
 * Programming Language: Python, C, C#, MATLAB, Verilog
 * OS: Windows, Linux, Embedded Linux, RTOS
