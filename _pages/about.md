@@ -10,7 +10,7 @@ author_profile: true
 
 He received the Master's degree from [**Xidian University**](https://www.xidian.edu.cn/) in June 2023, where he worked closely with Prof. Lei Quan  and Prof. Kai Xie at [GATE](https://faculty.xidian.edu.cn/XK3/zh_CN/index.htm) Lab. Previously, he received the B.E. degree from Xidian University in June 2020.
 
-His research lies in **Deep Compressed Sensing**, **Edge AI**, **Smart Industrial System**, and **Wireless Communication**. Further details about his work can be found on [research page](/research/).
+His recent research mainly focuses on **Deep Compressed Sensing** and **Humanoid Robotics**. He also has previous research experience on Smart Industrial Systems and Wireless Communication. Further details about his work can be found on [research page](/research/).
 
 # Honors
 
@@ -82,7 +82,7 @@ Submitted to [Solar Energy | Journal | ScienceDirect.com by Elsevier](https://ww
 
 # Skills
 
-
+* Motor Control for Humanoid Robotics
 * High-Reliability Embedded System Development and Circuit Design
 * Neural Network: Architecture Design, Model Optimization, and Edge AI Implementation
 * Programming Language: Python, C, C#, MATLAB, Verilog
