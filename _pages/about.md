@@ -75,14 +75,17 @@ Submitted to [Solar Energy | Journal | ScienceDirect.com by Elsevier](https://ww
 
 * **一种实时双内核单机半实物仿真架构及仿真方法**, CN112131741B (已授权), 2024-01-30.
 
+* **基于近端梯度法的光伏电池能效图检测方法**, CN119675589B (已授权), 2025-11-11.
+
 # Reviewer Service
 
 * IEEE Sensors Letters
+* IEEE Sensors Journal
 * The Journal of Supercomputing
 
 # Skills
 
-* Motor Control for Humanoid Robotics
+* Motor Control for Humanoid Robot
 * High-Reliability Embedded System Development and Circuit Design
 * Neural Network: Architecture Design, Model Optimization, and Edge AI Implementation
 * Programming Language: Python, C, C#, MATLAB, Verilog
