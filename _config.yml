@@ -189,7 +189,7 @@ collections:
     permalink: /:collection/:path/
   research:
     output: true
-    permalink: /:research/:path/
+    permalink: /:collection/:path/
 
 
 # Defaults
