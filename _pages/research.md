@@ -2,7 +2,7 @@
 title: "Research"
 permalink: /research/
 layout: collection
-collection: cases
+collection: research
 author_profile: true
 entries_layout: list
 classes: wide
