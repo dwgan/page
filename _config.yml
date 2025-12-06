@@ -6,14 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "ch-CN"
+locale                   : "zh-CN"
 title                    : "Dongwen Gan / 甘东文"
 title_separator          : "-"
 name                     : &name "Dongwen Gan"
 description              : &description "personal description"
 url                      : https://dwgan.top # the base hostname & protocol for your site e.g. "https://dwgan.github.io"
 baseurl                  : "" # "https://dwgan.blog.csdn.net" # the subpath of your site, e.g. "/blog"
-repository               : "dwgan/dwgan.github.io"
+repository               : "dwgan/page"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -189,7 +189,7 @@ collections:
     permalink: /:collection/:path/
   research:
     output: true
-    permalink: /:research/:name/
+    permalink: /research/:name/
 
 
 # Defaults
