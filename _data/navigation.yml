@@ -5,8 +5,8 @@ main:
     
   - title: "Research"
     url: /research/
-  - title: "Blog"
-    url: https://blog.dwgan.top
+#  - title: "Blog"
+#    url: https://blog.dwgan.top
     
 # - title: "CV"
 #   url: /cv/
