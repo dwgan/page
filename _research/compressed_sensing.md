@@ -1,5 +1,5 @@
 ---
-title: "Compressed Sensing"
+title: "Deep Compressed Sensing"
 excerpt: Perturbed compressed sensing, Deep compressed sensing
 layout: single
 classes: wide

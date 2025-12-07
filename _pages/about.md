@@ -2,6 +2,7 @@
 permalink: /
 title: "Biography"
 author_profile: true
+layout: collection
 ---
 
 
