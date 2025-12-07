@@ -3,7 +3,7 @@ title: "Robotic"
 excerpt: Humaniod robot
 layout: single
 classes: wide
-order: 1
+order: 2
 ---
 
 ## Smart Industrial
