@@ -1,11 +1,10 @@
 ---
-title: "Communication"
-excerpt: Intelligent Communication System
+title: "Intelligent Communication"
+excerpt: UWB-based wireless communication system, high-reliable hardware design
 layout: single
 classes: wide
 order: 3
 ---
-
 
 
 

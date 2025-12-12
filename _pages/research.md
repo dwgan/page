@@ -10,6 +10,6 @@ sort_by: order
 sort_order: forward
 ---
 
-My research is primarily centered around those key areas: **Deep Compressed Sensing**, **Robotic** and **Intelligent Communication System**.
+My recent research is primarily centered around those key areas: **Deep Compressed Sensing**, **Humaniod Robot** and **Intelligent Communication System**.
 
 
