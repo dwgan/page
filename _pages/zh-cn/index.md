@@ -5,11 +5,11 @@ author_profile: true
 layout: collection
 ---
 
-**Dongwen Gan**（**甘东文**）现任 [**意法半导体 STMicroelectronics**](https://www.st.com/)（深圳）应用工程师（Application Engineer），自 2023 年 6 月起就职。
+**甘东文**现任 [**意法半导体 STMicroelectronics**](https://www.st.com/)（深圳）应用工程师（Application Engineer），自 2023 年 6 月起就职。
 
-2023 年 6 月于 [**西安电子科技大学**](https://www.xidian.edu.cn/) 获硕士学位，在读期间与 **全磊**教授、**谢凯**教授密切合作，并在 [GATE 实验室](https://faculty.xidian.edu.cn/XK3/zh_CN/index.htm) 开展研究工作。此前于 2020 年 6 月在西安电子科技大学获得工学学士学位。
+2023 年 6 月于 [**西安电子科技大学**](https://www.xidian.edu.cn/) 获硕士学位，在读期间与 **权磊**副教授、**谢楷**教授密切合作，并在 [GATE 实验室](https://faculty.xidian.edu.cn/XK3/zh_CN/index.htm) 开展研究工作。此前于 2020 年 6 月在西安电子科技大学获得工学学士学位。
 
-近期研究方向主要包括 **深度压缩感知（Deep Compressed Sensing）** 与 **人形机器人（Humanoid Robot）**；同时也具备智能工业系统与无线通信系统方面的研究与工程经验。更多细节请见：[研究方向](/zh-cn/research/)。
+近期研究方向主要包括 **深度压缩感知** 与 **人形机器人**；同时也具备智能工业系统与无线通信系统方面的研究与工程经验。更多细节请见：[研究方向](/zh-cn/research/)。
 
 # 荣誉与奖励
 
