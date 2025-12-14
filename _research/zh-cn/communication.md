@@ -1,6 +1,6 @@
 ---
-title: "Intelligent Communication"
-excerpt: UWB-based wireless communication system, high-reliable hardware design
+title: "智能通信"
+excerpt: 面向航天舱内的 UWB 无线通信系统与高可靠硬件设计
 layout: single
 classes: wide
 order: 3
@@ -11,16 +11,14 @@ lang_filter: true
 permalink: /zh-cn/research/communication/
 ---
 
+## 面向航天器的智能通信系统
 
+在无线通信方向，我主要关注航天器/火箭舱内的无线数据与指令传输设备研发（包括数据链路、指令链路与系统级集成验证）。
 
-## Intelligent Communication System for Aircraft
+自 2020 年至 2023 年，我参与了若干航天工程项目，为商业航天企业（例如：[北京天兵科技有限公司](http://www.spacetransportation.com.cn/)）提供航天器相关设备。在此期间，我负责并积累了高可靠硬件与软件设计经验，也通过无线通信技术解决了多项工程化问题，并逐步形成了以系统工程方法论处理复杂任务的工作方式。
 
-For Wireless Communication, I am focusing on develop the communication devices used for wireless data, instruction transmission inside the cabin of rocket.
+面向下一代智能航天通信系统，我们重点应对新技术在工程落地中的应用挑战，同时尽可能复用成熟工业技术，以实现低成本与快速迭代。我的工作重点包括：舱内无线通信、无线供电，以及面向火箭的机载中央计算架构等。
 
-Since 2020 to 2023, I was participated in some project that provided aerospace devices for Commercial Aerospace Company like [Beijing Skywalk Technology Co., Ltd.](http://www.spacetransportation.com.cn/) During this period, I was able to design high-reliable hardware and software for aerospace devices as well as solve some problem using wireless communication. I learned how to solve those hard problems in aerospace devices using a systems engineering mindset.
+基于**超宽带（UWB）**无线通信技术，我们针对如下挑战开展设计与验证：高速传输（如相机数据）、时间敏感传输（同步数据）、高可靠传输（指令数据），以及无线组网（传统线缆方式难以实现的场景）。同时，我们也推进无线供电相关问题的解决，并提出了面向弹载/箭载计算机的统一核心通信框架。
 
-Aim to empowering the next generation of intelligent aircraft communication systems, we addresses challenges in the application of new technologies, leveraging existing industrial technologies for low-cost, rapid iteration of aircraft devices. My primary focus is on in-cabin wireless communication, wireless power transfer, and onboard central computer for rocket.
-
-Utilizing ultra wide band (UWB) wireless communication technology, we solve some wireless communication challenges including high-rate transmission (camera data), time-sensitive transmission (synchronous data), high-reliable transmission (instruction data) and wireless networking (hard to realize by wire communication). We also solve problem of wireless power and proposed unified core communication framework for missile-borne computer.
-
-All devices are verified through aerospace experiment and flight missions. Here is the [report link](https://www.guancha.cn/industry-science/2022_01_24_623388.shtml) about one of flight missions.
+上述设备已通过航天试验与飞行任务验证。这里给出一次飞行任务的公开报道链接：[Report](https://www.guancha.cn/industry-science/2022_01_24_623388.shtml)。
