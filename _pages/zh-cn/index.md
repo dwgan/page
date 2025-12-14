@@ -24,7 +24,7 @@ layout: collection
 # 论文与成果
 
 * **Perturbed Compressed Sensing-based Anti-noise Defect Detection for Photovoltaic Cells**\
-**Dongwen Gan**，导师：权磊\
+**甘东文**，导师：权磊\
 _硕士学位论文（西安电子科技大学）_，2023\
 [Thesis](https://github.com/dwgan/page/releases/download/v1.0.0/default.pdf)
 
