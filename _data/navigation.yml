@@ -1,24 +1,8 @@
 # main links links
 main:
-#  - title: "Publications"
-#    url: /publications/
-    
   - title: "Research"
     url: /research/
-# - title: "Blog"
-#   url: https://blog.dwgan.top
-    
-# - title: "CV"
-#   url: /cv/
-    
-#  - title: "Awards"
-#    url: /awards/
-    
-#  - title: "News"
-#    url: /news/
-    
-#  - title: "Misc"
-#    url: /misc/
 
-#  - title: "Blog Posts"
-#    url: /year-archive/
+main_zh:
+  - title: "研究方向"
+    url: /zh-cn/research/

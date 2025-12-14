@@ -1,7 +1,7 @@
 ---
-title: "Research"
-permalink: /research/
-lang: en
+title: "研究方向"
+permalink: /zh-cn/research/
+lang: zh-CN
 lang_filter: true
 layout: collection
 collection: research

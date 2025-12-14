@@ -77,46 +77,6 @@ analytics:
   google:
     tracking_id          :
 
-
-# Site Author
-author:
-  name             : "Dongwen Gan"
-  avatar           : "profile.png"
-  bio              : "Master from Xidian University"
-  location         : "Shenzhen, CN"
-  employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=y_LlXEoAAAAJ&hl=zh-CN&oi=ao"
-  github           : "dwgan"
-  email            : "dwgan@stu.xidian.edu.cn"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              : "https://dwgan.blog.csdn.net"
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : #"replacethistwitterhandle"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-
-
 # Reading Files
 include:
   - .htaccess
@@ -205,13 +165,28 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  # _pages（英文默认）
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
+      lang: en
+      navigation: main
+      author: en
+
+  # _pages/zh-cn（中文）
+  - scope:
+      path: "_pages/zh-cn"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      lang: zh-CN
+      navigation: main_zh
+      author: zh-cn
+
   # _teaching
   - scope:
       path: ""
@@ -247,6 +222,33 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+
+  # _research/en
+  - scope:
+      path: "_research/"
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      lang: en
+      author: en
+      navigation: main
+
+  # _research/zh-cn
+  - scope:
+      path: "_research/zh-cn/"
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      lang: zh-CN
+      author: zh-cn
+      navigation: main_zh
+
 
 # Sass/SCSS
 sass:

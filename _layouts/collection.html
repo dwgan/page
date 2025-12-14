@@ -5,6 +5,42 @@ layout: archive
 {{ content }}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
+{% assign docs = site[page.collection] %}
+
+{%- comment -%}
+  Filter by language for research collection:
+  - /research/       -> exclude _research/zh-cn/**
+  - /zh-cn/research/ -> include only _research/zh-cn/**
+{%- endcomment -%}
+
+{%- assign is_zh_page = false -%}
+{%- if page.url contains '/zh-cn/' or page.lang == 'zh-CN' -%}
+  {%- assign is_zh_page = true -%}
+{%- endif -%}
+
+{%- if page.sort_by -%}
+  {% assign docs = docs | sort: page.sort_by %}
+{%- endif -%}
+
+{%- assign _order = page.sort_order | downcase -%}
+{%- if _order == "desc" or _order == "reverse" -%}
+  {% assign docs = docs | reverse %}
+{%- endif -%}
+
 <div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=entries_layout %}
+  {% for post in docs %}
+    {%- if page.collection == "research" -%}
+      {%- if is_zh_page -%}
+        {%- unless post.path contains "_research/zh-cn/" -%}
+          {%- continue -%}
+        {%- endunless -%}
+      {%- else -%}
+        {%- if post.path contains "_research/zh-cn/" -%}
+          {%- continue -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
 </div>

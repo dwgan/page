@@ -1,18 +1,24 @@
 # Authors
+en:
+  title: "Personal Website"
+  name: "Dongwen Gan"
+  avatar: "profile.png"
+  bio: "Master from Xidian University"
+  location: "Shenzhen, CN"
+  employer:
+  googlescholar: "https://scholar.google.com/citations?user=y_LlXEoAAAAJ&hl=zh-CN&oi=ao"
+  github: "dwgan"
+  email: "dwgan@stu.xidian.edu.cn"
+  uri: "https://dwgan.blog.csdn.net"
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+zh-cn:
+  title: "个人网站"
+  name: "甘东文"
+  avatar: "profile.png"
+  bio: "西安电子科技大学硕士"
+  location: "深圳，中国"
+  employer:
+  googlescholar: "https://scholar.google.com/citations?user=y_LlXEoAAAAJ&hl=zh-CN&oi=ao"
+  github: "dwgan"
+  email: "dwgan@stu.xidian.edu.cn"
+  uri: "https://dwgan.blog.csdn.net"

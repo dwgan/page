@@ -5,17 +5,42 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
+
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-              {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
+
+          {%- assign author_id = page.author | default: "en" -%}
+          {%- assign author_obj = site.data.authors[author_id] -%}
+
+          <li class="masthead__menu-item masthead__menu-item--lg">
+            <a href="{{ base_path }}/">
+              {{ author_obj.title | default: site.title }}
+            </a>
+          </li>
+
+          {%- assign nav = page.navigation -%}
+          {%- if nav == nil -%}
+            {%- if author_id == "zh-cn" -%}
+              {%- assign nav = "main_zh" -%}
+            {%- else -%}
+              {%- assign nav = "main" -%}
+            {%- endif -%}
+          {%- endif -%}
+
+          {%- for link in site.data.navigation[nav] -%}
+            {%- if link.url contains 'http' -%}
+              {%- assign domain = '' -%}
+            {%- else -%}
+              {%- assign domain = base_path -%}
+            {%- endif -%}
+            <li class="masthead__menu-item">
+              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            </li>
+          {%- endfor -%}
+
+          {% include lang-switch.html %}
+
         </ul>
+
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>

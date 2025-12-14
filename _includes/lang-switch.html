@@ -1,0 +1,13 @@
+{% if page.url contains '/zh-cn/' %}
+  {% assign switch_url = page.url | replace_first: '/zh-cn', '' %}
+  {% assign switch_text = 'English' %}
+{% else %}
+  {% if page.url == '/' %}
+    {% assign switch_url = '/zh-cn/' %}
+  {% else %}
+    {% assign switch_url = '/zh-cn' | append: page.url %}
+  {% endif %}
+  {% assign switch_text = '中文' %}
+{% endif %}
+
+<a class="site-nav__link" href="{{ switch_url }}">{{ switch_text }}</a>
