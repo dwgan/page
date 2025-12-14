@@ -12,6 +12,8 @@ sort_by: order
 sort_order: forward
 ---
 
-My recent research is primarily centered around those key areas: **Deep Compressed Sensing**, **Humaniod Robot** and **Intelligent Communication System**.
+近期的研究与工程工作主要围绕以下方向展开：
 
-
+* **深度压缩感知**
+* **人形机器人**
+* **智能通信系统**
