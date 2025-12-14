@@ -11,8 +11,14 @@
           {%- assign author_id = page.author | default: "en" -%}
           {%- assign author_obj = site.data.authors[author_id] -%}
 
+          {%- if author_id == "zh-cn" -%}
+            {%- assign home_url = "/zh-cn/" | relative_url -%}
+          {%- else -%}
+            {%- assign home_url = "/" | relative_url -%}
+          {%- endif -%}
+
           <li class="masthead__menu-item masthead__menu-item--lg">
-            <a href="{{ base_path }}/">
+            <a href="{{ home_url }}">
               {{ author_obj.title | default: site.title }}
             </a>
           </li>
