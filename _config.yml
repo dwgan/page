@@ -154,6 +154,18 @@ collections:
 
 # Defaults
 defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      lang: en
+      description: "Deep Compressed Sensing, Humanoid Robotics, Intelligent Communication"
+  - scope:
+      path: "zh-cn"
+      type: pages
+    values:
+      lang: zh-cn
+      description: "压缩感知、人形机器人、智能通信"
   # _posts
   - scope:
       path: ""
