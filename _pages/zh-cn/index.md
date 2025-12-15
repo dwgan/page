@@ -23,7 +23,7 @@ layout: collection
 
 # 论文与成果
 
-* **Perturbed Compressed Sensing-based Anti-noise Defect Detection for Photovoltaic Cells**\
+* **基于扰动压缩感知的光伏电池表面缺陷抗噪声检测技术研究**\
 **甘东文**，导师：权磊\
 _硕士学位论文（西安电子科技大学）_，2023\
 [Thesis](https://github.com/dwgan/page/releases/download/v1.0.0/default.pdf)
