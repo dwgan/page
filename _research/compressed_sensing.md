@@ -6,6 +6,8 @@ classes: wide
 order: 1
 ---
 
+This is my interesting adacemic-oriented research, which is target to explore science's boundaries rather than getting profit. Before I graduated, it is the main re
+
 For compressed sensing, I am had research experience on Applactions of compressed sensing, Perturbed compressed sensing, Deep compressed sensing.
 
 ## Basis of compressed sensing
