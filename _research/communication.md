@@ -6,7 +6,7 @@ classes: wide
 order: 3
 ---
 
-
+This is engineering research direction that targeting to solve existing engineering problems for research institutions and enterprises.
 
 ## Intelligent Communication System for Aircraft
 
