@@ -6,6 +6,8 @@ classes: wide
 order: 2
 ---
 
+This area is my major direction that I done at STMicroelectronics.
+
 As a System Application Engineer at ST,  I am focusing on develop the solution for **smart industrial** area using ST product.
 
 One key area we are recently focus on is **humaniod robot**. 
