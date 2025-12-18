@@ -6,7 +6,7 @@ classes: wide
 order: 2
 ---
 
-This area is my major direction that I done at STMicroelectronics.
+This area is my major direction that I done at STMicroelectronics. Which is targeting to promote new technologies based on ST ecosystem.
 
 As a System Application Engineer at ST,  I am focusing on develop the solution for **smart industrial** area using ST product.
 
