@@ -74,8 +74,10 @@ Submitted to _Solar Energy_ [Under review]
 
 # 技能
 
-* 人形机器人电机控制与运动控制
-* 高可靠嵌入式系统开发与电路设计
+* 人形机器人关节电机软硬件设计
+* 高可靠嵌入式系统开发
+* 电路与PCB设计
+* 机械结构设计
 * 神经网络：架构设计、模型优化、边缘端 AI 落地
 * 编程语言：Python、C、C#、MATLAB、Verilog
 * 操作系统：Windows、Linux、Embedded Linux、RTOS
