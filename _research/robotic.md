@@ -18,7 +18,7 @@ Humanoid robotics is entering a scale-up phase, and the joint actuator is one of
 
 More importantly, a “joint motor” is not a simple motor. It is a tightly integrated mechatronic system that combines a high-torque density motor, a precision reducer (often a harmonic drive), dual encoders (rotor and output-axis) for commutation and absolute positioning, a brake for safe holding, and frequently a torque sensor for compliant control—along with the embedded servo drive electronics that must manage power conversion, sensing, protection, real-time control, and communication in a compact, thermally constrained package. This architecture makes joint modules complex to engineer, difficult to manufacture at scale, and highly sensitive to design trade-offs in efficiency, accuracy, noise, and safety.
 
-![image-20251220165449369](https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/image-20251220165449369.png)
+![image-20251220165449369](https://pic.dwgan.top/img/image-20251220165449369.png)
 
 Our primary focus is the servo drive (drive board) inside the joint module—delivering high-performance motor control electronics and firmware that enable stable torque/position control, robust protection, and scalable integration for next-generation humanoid actuators.
 
@@ -82,6 +82,7 @@ Our team focuses on demonstration; we will design our solution based on the exis
 # Past work
 
 In the past, we have developed many solutions for smart homes, especially for **KNX**. Which is a leading international protocol in smart home automation that ensures seamless compatibility and plug-and-play functionality across devices. We’ve developed various demos to showcase the integration of ST’s products. During the development process of those demo solutions, I got more familiar with ST products, such as STM32 MCU/MPU, chips, KNX protocol chips, IO-Link protocol chips, edge AI sensors, DC-DC converters, and energy harvesting chips. Our demos include smart charging stations, mini IoT houses, photovoltaic energy storage and harvesting, IoT sensors, KNX-based smart building management systems, and solutions for remote network monitoring and intranet penetration.
+
 
 
 
