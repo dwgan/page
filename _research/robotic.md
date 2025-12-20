@@ -12,7 +12,7 @@ As a System Application Engineer at ST, I focus on developing solutions for the 
 
 One key area we have recently focused on is the **Humanoid Robot**. 
 
-## Joint module
+# Joint module
 
 Humanoid robotics is entering a scale-up phase, and the joint actuator is one of the most decisive modules for performance, cost, and reliability. A single humanoid robot typically requires dozens of joint motors distributed across the neck, shoulders, elbows, wrists, hips, knees, and ankles—making the total addressable market substantial and structurally long-term as volumes grow and platforms iterate.
 
@@ -22,7 +22,7 @@ More importantly, a “joint motor” is not a simple motor. It is a tightly int
 
 Our primary focus is the servo drive (drive board) inside the joint module—delivering high-performance motor control electronics and firmware that enable stable torque/position control, robust protection, and scalable integration for next-generation humanoid actuators.
 
-### Performance Index
+## Performance Index
 
 - High torque density
 - High efficiency (> 90 %)
@@ -34,7 +34,7 @@ Our primary focus is the servo drive (drive board) inside the joint module—del
 - Protection: OCP / OVP / OTP / UVLO / Short-Circuit
 - Environment: IP65, -10 °C ~ 60 °C
 
-### What we provide
+## What we provide
 
 We provide a motor driver reference solution that includes an STM32, MOSFET, Gate driver, DC-DC, LDO, CAN/RS-485 transceiver, ESD protection, and Op-Amp.
 
@@ -42,7 +42,7 @@ We provide MCSDK, which is a motor control software development kit. It offers q
 
 Our team focuses on demonstration; we will design our solution based on the existing mechanical structure.
 
-### What can we do with GaN HEMTs and STM32G5
+## What can we do with GaN HEMTs and STM32G5
 
 - Higher Power Efficiency & Compact Design
    - efficiency > 96 % @ 48 V / 300 W (typical efficiency).
@@ -56,7 +56,7 @@ Our team focuses on demonstration; we will design our solution based on the exis
    - Minimal dead-time (< 50 ns) and low switching losses → deliver smoother current waveforms and reduced torque ripple.
    - Current loop bandwidth > 5 kHz, enabling millisecond-level torque response for robotic joint control.
 
-### What is the challenge
+## What is the challenge
 
 - Difficult hardware design
    - Complex hardware design — requires careful PCB layout and driver design to minimize parasitic inductance.
@@ -69,19 +69,20 @@ Our team focuses on demonstration; we will design our solution based on the exis
    - Cost-sensitive limitation — less suitable for low-cost applications (e.g., consumer or robotic dog platforms).
 
 
-## Robotic hands
+# Robotic hands
 
 [Bilibili link](https://www.bilibili.com/video/BV1cfh1zbEnB)
 
-## Overall humanoid robot
+# Overall humanoid robot
 
 [Humanoid robot with gesture recognition and voice control](https://www.bilibili.com/video/BV1gX28BpEWm)
 
 [Humanoid robot follow gesture using STM32N6](https://www.bilibili.com/video/BV1MGCuBEEzo)
 
-## Past work
+# Past work
 
 In the past, we have developed many solutions for smart homes, especially for **KNX**. Which is a leading international protocol in smart home automation that ensures seamless compatibility and plug-and-play functionality across devices. We’ve developed various demos to showcase the integration of ST’s products. During the development process of those demo solutions, I got more familiar with ST products, such as STM32 MCU/MPU, chips, KNX protocol chips, IO-Link protocol chips, edge AI sensors, DC-DC converters, and energy harvesting chips. Our demos include smart charging stations, mini IoT houses, photovoltaic energy storage and harvesting, IoT sensors, KNX-based smart building management systems, and solutions for remote network monitoring and intranet penetration.
+
 
 
 
