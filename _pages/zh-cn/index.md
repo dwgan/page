@@ -5,11 +5,11 @@ author_profile: true
 layout: collection
 ---
 
-**甘东文**现任 [**意法半导体 STMicroelectronics**](https://www.st.com/)（深圳）应用工程师（Application Engineer），自 2023 年 6 月起就职。
+**甘东文** 现任 [**意法半导体 STMicroelectronics**](https://www.st.com/)（深圳）应用工程师（Application Engineer），自 2023 年 6 月起就职。
 
-2023 年 6 月于 [**西安电子科技大学**](https://www.xidian.edu.cn/) 获硕士学位，师从 **权磊**副教授、**谢楷**教授，并在 [GATE 实验室](https://faculty.xidian.edu.cn/XK3/zh_CN/index.htm) 开展研究工作。此前于 2020 年 6 月在西安电子科技大学获得工学学士学位。
+2023 年 6 月于 [**西安电子科技大学**](https://www.xidian.edu.cn/) 获硕士学位，师从权磊副教授、谢楷教授，并在 [GATE 实验室](https://faculty.xidian.edu.cn/XK3/zh_CN/index.htm) 开展研究工作。此前于 2020 年 6 月在西安电子科技大学获得工学学士学位。
 
-近期研究方向主要包括 **深度压缩感知**、**人形机器人**以及智能通信系统研究。更多细节请见：[研究方向](/zh-cn/research/)。
+近期研究方向主要包括 **深度压缩感知**、**人形机器人**以及**智能通信系统**。更多细节请见：[研究方向](/zh-cn/research/)。
 
 # 荣誉与奖励
 
@@ -18,7 +18,7 @@ layout: collection
 * 2022 CASC奖学金（中国航天科技集团有限公司）
 * 2019 全国大学生电子设计大赛（陕西省教育厅）
 * 2021 中国研究生未来飞行器创新大赛
-* 2022 学术英语交流与写作能力项目（剑桥），Upper Second Class
+* 2022 学术英语交流与写作能力项目（剑桥）
 * 2024 阿拉丁神灯奖 Top 30（广州电气建筑技术委员会、阿拉丁奖评委会）
 
 # 论文与成果
