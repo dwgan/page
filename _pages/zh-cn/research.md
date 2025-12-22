@@ -5,7 +5,7 @@ lang: zh-CN
 lang_filter: true
 layout: collection
 collection: research
-author_profile: true
+author_profile: false
 entries_layout: list
 classes: wide
 sort_by: order
