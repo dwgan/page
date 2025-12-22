@@ -15,7 +15,7 @@ permalink: /zh-cn/research/robotic/
 
 作为 ST 的系统应用工程师（System Application Engineer），我主要聚焦 **智能工业（Smart Industrial）** 方向，基于 ST 产品进行系统级方案开发。
 
-我们近期重点投入的一个方向是 **人形机器人（Humanoid Robot）**。
+我们近期重点投入的一个方向是 **人形机器人（Humanoid Robot）**，主要包括关节模组、灵巧手、传感器。
 
 # 关节模组
 
