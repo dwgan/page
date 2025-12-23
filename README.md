@@ -4,7 +4,7 @@
 ### 1. 安装 Ruby 和 Bundler
 
 - 首先，安装 [Ruby](https://www.ruby-lang.org/en/documentation/installation/)，建议使用 [RubyInstaller](https://rubyinstaller.org/) 来安装 Ruby。
-- 安装好 Ruby 后，打开命令行并安装 Bundler：
+- 安装好 Ruby 后，打开命令行（推荐使用Powershell）并安装 Bundler：
 
 ```bash
   gem install bundler
@@ -13,7 +13,7 @@
 ### 2. 安装依赖
 
 * 克隆或下载你的 Jekyll 项目到本地。
-* 在项目目录下，运行以下命令来安装所有依赖：
+* 在项目目录下，运行以下命令（推荐使用Powershell）来安装所有依赖：
 
   ```bash
   bundle install
