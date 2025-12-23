@@ -31,12 +31,12 @@ _硕士学位论文（西安电子科技大学）_，2023\
 * **Orthogonal modulation-based light beam induced current method for anti-noise defect detection in photovoltaic cells**\
 **Dongwen Gan**, Lei Quan, Fan Zhu, Kai Xie, and Junmei Bai\
 _Solar Energy_，2022（IF: 7.188）\
-[[Paper]](https://github.com/dwgan/page/releases/download/v1.0.0/1-s2.0-S0038092X22006089-main.pdf)
+[Paper](https://github.com/dwgan/page/releases/download/v1.0.0/1-s2.0-S0038092X22006089-main.pdf)
 
 * **Multispectral compressive light beam induced current method for photovoltaic cell assessment**\
 Fan Zhu, Kai Xie, Lei Quan, and **Dongwen Gan**\
 _Solar Energy_，2024（IF: 6.7）\
-[[Paper]](https://github.com/dwgan/page/releases/download/v1.0.0/1-s2.0-S0038092X24003165-main.pdf)
+[Paper](https://github.com/dwgan/page/releases/download/v1.0.0/1-s2.0-S0038092X24003165-main.pdf)
 
 * **Pseudo-random sequence coded electroluminescence imaging for photovoltaic module inspection under outdoor ambient light**\
 Fan Zhu, Kai Xie, **Dongwen Gan**, Lei Quan, and Jingyi Zhu\
