@@ -14,7 +14,7 @@ One key area we have recently focused on is the **Humanoid Robot**, Joint Module
 
 # Joint Module
 
-Humanoid robotics is entering a scale-up phase, and the joint actuator is one of the most decisive modules for performance, cost, and reliability. A single humanoid robot typically requires dozens of joint motors distributed across the neck, shoulders, elbows, wrists, hips, knees, and ankles—making the total addressable market substantial and structurally long-term as volumes grow and platforms iterate.
+Humanoid robotics is entering a scale-up phase, and the joint module is one of the most decisive parts for performance, cost, and reliability. A single humanoid robot typically requires dozens of joint modules distributed across the neck, shoulders, elbows, wrists, hips, knees, and ankles—making the total addressable market substantial and structurally long-term as volumes grow and platforms iterate.
 
 More importantly, a “joint motor” is not a simple motor. It is a tightly integrated mechatronic system that combines a high-torque density motor, a precision reducer (often a harmonic drive), dual encoders (rotor and output-axis) for commutation and absolute positioning, a brake for safe holding, and frequently a torque sensor for compliant control—along with the embedded servo drive electronics that must manage power conversion, sensing, protection, real-time control, and communication in a compact, thermally constrained package. This architecture makes joint modules complex to engineer, difficult to manufacture at scale, and highly sensitive to design trade-offs in efficiency, accuracy, noise, and safety.
 
