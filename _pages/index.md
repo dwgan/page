@@ -86,8 +86,8 @@ Submitted to [Solar Energy | Journal | ScienceDirect.com by Elsevier](https://ww
 
 # Skills
 
-* Motor Control for Humanoid Robot
 * High-Reliability Embedded System Development and Circuit Design
+* Motor Control for Humanoid Robot
 * Mechanical Design
 * Neural Network: Architecture Design, Model Optimization, and Edge AI Implementation
 * Programming Language: Python, C, C#, MATLAB, Verilog
