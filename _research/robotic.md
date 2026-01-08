@@ -55,6 +55,70 @@ Our team focuses on demonstration; we will design our solution based on the exis
    - Control MCU frequency up to 205 MHz → allows more precise current, velocity, and position control with reduced computational latency.
    - Minimal dead-time (< 50 ns) and low switching losses → deliver smoother current waveforms and reduced torque ripple.
    - Current loop bandwidth > 5 kHz, enabling millisecond-level torque response for robotic joint control.
+ 
+## Why GaN is better
+
+### 1) Structural differences → loss differences (with typical share)
+
+#### Silicon power MOSFET (vertical DMOS/Trench)
+
+* Has **P-body + N drift region**, with P-body shorted to Source
+* This inherently creates a **PN body diode (S→D)**
+* When the body diode conducts forward, **minority carriers are injected and stored** → **reverse-recovery charge (Qrr)**
+* During commutation, that stored charge must be removed → **reverse-recovery loss**
+
+#### GaN e-mode HEMT (lateral AlGaN/GaN heterojunction)
+
+* Main conduction channel is **2DEG (two-dimensional electron gas)**; reverse conduction is largely **channel-based**
+* No Si-like PN body diode minority-carrier storage; practically **(Qrr≈0)**
+* Hence the “(Qrr) removal” hard-switching penalty is largely eliminated (especially beneficial at high (V)/high (fsw))
+
+**Typical reverse-recovery loss share of total loss (rule-of-thumb):**
+
+* **Low (f) (≤50 kHz), low bus (≤24–48 V):** ~**5–20%** (often lower)
+* **Mid/high (f) (100–500 kHz) or higher bus (≥48–100 V):** ~**20–40%**
+* **High (V)/high (f) hard-switching:** can reach **40–60%+**
+  (Strongly dependent on (fsw), (Vbus), deadtime, di/dt, and device (Qrr).)
+
+Engineering estimate:
+$$
+P_{rr}\approx Q_{rr}\cdot V_{bus}\cdot f_{sw}\cdot N
+$$
+
+---
+
+### 2) PN junction states → why commutation loss is large
+
+For a Si half-bridge / synchronous buck / one inverter leg:
+
+1. **Deadtime/freewheeling:** a body diode PN junction becomes **forward-biased**
+
+   * Minority carriers are injected and stored → (Qrr)
+2. **Commutation instant:** the opposite switch turns on and the switching node slews
+
+   * The previously forward-biased PN junction is **forced into reverse bias**
+   * Before stored charge is cleared, the diode conducts a **reverse-recovery current spike (irr(t))**
+3. **Why loss is large:** the current spike overlaps with high voltage
+   $$
+   E_{rr}=\int v(t),i_{rr}(t),dt \approx Q_{rr}\cdot V_{bus}
+   $$
+
+---
+
+### 3) Smaller Miller capacitance → lower gate-drive loss (with formulas)
+
+Gate-drive energy per switching event:
+$$
+E_{gate}\approx Q_g\cdot V_{drive}
+$$
+Average gate-drive power:
+$$
+P_{gate}=Q_g\cdot V_{drive}\cdot f_{sw}
+$$
+with (Qg=Qgs+Qgd). The Miller portion (Qgd) is tied to **(Cgd)** and dominates the voltage-transition plateau.
+
+* **Smaller Miller ((Qgd}) / effective (Cgd))** ⇒ smaller (Qg)
+  ⇒ **lower (Pgate)** at a given (fsw), or higher feasible (fsw) for the same drive-loss budget.
 
 ## What is the challenge
 
@@ -82,6 +146,7 @@ Our team focuses on demonstration; we will design our solution based on the exis
 # Past work
 
 In the past, we have developed many solutions for smart homes, especially for **KNX**. Which is a leading international protocol in smart home automation that ensures seamless compatibility and plug-and-play functionality across devices. We’ve developed various demos to showcase the integration of ST’s products. During the development process of those demo solutions, I got more familiar with ST products, such as STM32 MCU/MPU, chips, KNX protocol chips, IO-Link protocol chips, edge AI sensors, DC-DC converters, and energy harvesting chips. Our demos include smart charging stations, mini IoT houses, photovoltaic energy storage and harvesting, IoT sensors, KNX-based smart building management systems, and solutions for remote network monitoring and intranet penetration.
+
 
 
 
