@@ -19,7 +19,7 @@ Humanoid robotics is entering a scale-up phase, and the joint module is one of t
 
 More importantly, a “joint module” is not a simple motor. It is a tightly integrated mechatronic system that combines a high-torque density motor, a precision reducer (often a harmonic drive), dual encoders (rotor and output-axis) for commutation and absolute positioning, a brake for safe holding, and frequently a torque sensor for compliant control—along with the embedded servo drive electronics that must manage power conversion, sensing, protection, real-time control, and communication in a compact, thermally constrained package. This architecture makes joint modules complex to engineer, difficult to manufacture at scale, and highly sensitive to design trade-offs in efficiency, accuracy, noise, and safety.
 
-![image-20251220165449369](https://pic.dwgan.top/img/image-20251220165449369.png)
+![Joint module](https://pic.dwgan.top/img/image-20251220165449369.png)
 
 Our primary focus is the servo drive (drive board) inside the joint module—delivering high-performance motor control electronics and firmware that enable stable torque/position control, robust protection, and scalable integration for next-generation humanoid actuators.
 

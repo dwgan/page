@@ -1,6 +1,6 @@
 ---
-# layout: archive
-#title: "Blog"
+layout: archive
+title: "Blog"
 permalink: /blog/
 author_profile: false
 ---

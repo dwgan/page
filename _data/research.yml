@@ -1,0 +1,27 @@
+en:
+  - title: "Compressed Sensing"
+    excerpt: "Applications of compressed sensing, Perturbed compressed sensing, Deep compressed sensing"
+    url: "/research/compressed_sensing/"
+    order: 1
+  - title: "Humanoid Robot"
+    excerpt: "Joint module, robotic hands, and overall humanoid robot solution."
+    url: "/research/robotic/"
+    order: 2
+  - title: "Intelligent Communication"
+    excerpt: "High-reliable data storage, UWB-based wireless communication system"
+    url: "/research/communication/"
+    order: 3
+
+zh-cn:
+  - title: "压缩感知"
+    excerpt: "压缩感知应用、扰动压缩感知理论、深度压缩感知"
+    url: "/zh-cn/research/compressed_sensing/"
+    order: 1
+  - title: "人形机器人"
+    excerpt: "关节模组、机器人灵巧手，以及整体人形机器人解决方案。"
+    url: "/zh-cn/research/robotic/"
+    order: 2
+  - title: "智能通信"
+    excerpt: "面向航天舱内的 UWB 无线通信系统与高可靠硬件设计"
+    url: "/zh-cn/research/communication/"
+    order: 3
