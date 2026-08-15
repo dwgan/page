@@ -1,0 +1,35 @@
+{% assign home_key = page.lang | downcase %}
+{% assign home = site.data.home[home_key] %}
+
+# {{ home.honors_heading }}
+
+{% for item in home.honors %}
+* {{ item }}
+{% endfor %}
+
+# {{ home.publications_heading }}
+
+{% for pub in home.publications %}
+* **{{ pub.title }}**\
+{{ pub.authors }}\
+{{ pub.venue }}\
+[{{ pub.link_label }}]({{ pub.link_url }})
+
+{% endfor %}
+
+{% for patent in home.patents %}
+* **{{ patent.title }}**, {{ patent.number }} ({{ patent.status }}), {{ patent.date }}
+
+{% endfor %}
+
+# {{ home.reviewer_heading }}
+
+{% for item in home.reviewer %}
+* {{ item }}
+{% endfor %}
+
+# {{ home.skills_heading }}
+
+{% for item in home.skills %}
+* {{ item }}
+{% endfor %}
