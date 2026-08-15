@@ -1,0 +1,15 @@
+{% if page.lang %}
+  {% assign html_lang = page.lang | downcase %}
+  {% if html_lang contains "zh" %}
+    <link rel="alternate" hreflang="en" href="{{ page.url | replace_first: "/zh-cn", "" | prepend: site.url | append: site.baseurl }}">
+    <link rel="alternate" hreflang="zh-CN" href="{{ page.url | prepend: site.url | append: site.baseurl }}">
+  {% else %}
+    {% if page.url == "/" %}
+      {% assign alt_url = "/zh-cn/" %}
+    {% else %}
+      {% assign alt_url = page.url | prepend: "/zh-cn" %}
+    {% endif %}
+    <link rel="alternate" hreflang="en" href="{{ page.url | prepend: site.url | append: site.baseurl }}">
+    <link rel="alternate" hreflang="zh-CN" href="{{ alt_url | prepend: site.url | append: site.baseurl }}">
+  {% endif %}
+{% endif %}
