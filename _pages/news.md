@@ -17,7 +17,7 @@ News
 
 * Jun. 25, 2023: I graduated from _Xidian University_ again and received the Master's degree. Congratulations!
 
-* Feb. 2023 ~ May. 2023: I was writing my graduate thesis. Challenging and fun! I choose a topic that I was interested in but not familiar with. I spent more than a month learning the preliminary knowledge. Designing algorithm and writing thesis are interesting. Finally, I pass the blind review and thesis defense. Here is my [graduate thesis](../paper/基于扰动压缩感知的光伏电池表面缺陷抗噪声检测技术研究(图书馆上传版).pdf).
+* Feb. 2023 ~ May. 2023: I was writing my graduate thesis. Challenging and fun! I choose a topic that I was interested in but not familiar with. I spent more than a month learning the preliminary knowledge. Designing algorithm and writing thesis are interesting. Finally, I pass the blind review and thesis defense. Here is my [graduate thesis](https://github.com/dwgan/page/releases/download/v1.0.0/default.pdf).
 
 * Oct. 2022 ~ Apr. 10, 2023: I was seeking a job. The employment environment is Very pessimistic this year. Ultimately, I received an offer from _STMicroelectronics_ as _Automation Application Engineer_ at Shenzhen.
 

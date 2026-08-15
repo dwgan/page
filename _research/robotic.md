@@ -4,6 +4,7 @@ excerpt: Joint module, robotic hands, and overall humanoid robot solution.
 layout: single
 classes: wide
 order: 2
+math: true
 ---
 
 This is the major work I did at STMicroelectronics, which aims to promote new technologies based on the ST ecosystem.
