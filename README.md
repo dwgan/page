@@ -1,78 +1,59 @@
+# 甘东文个人学术主页
 
-## 环境搭建
+基于 Jekyll + academicpages 的静态网站，托管在 GitHub Pages，域名 `dwgan.top`。
 
-### 1. 安装 Ruby 和 Bundler
+## 环境要求
 
-- 首先，安装 [Ruby](https://www.ruby-lang.org/en/documentation/installation/)，建议使用 [RubyInstaller](https://rubyinstaller.org/) 来安装 Ruby。
-- 安装好 Ruby 后，打开命令行（推荐使用Powershell）并安装 Bundler：
+- Ruby 3.1
+- Bundler
+
+> 本项目依赖的 `github-pages`/Jekyll 旧版本在 Ruby 3.2+ 上会因移除 `String#tainted?` 而无法运行，请使用 Ruby 3.1。
+
+推荐使用 Homebrew 安装 Ruby 3.1：
 
 ```bash
-  gem install bundler
+brew install ruby@3.1
+export PATH="/opt/homebrew/opt/ruby@3.1/bin:$PATH"
 ```
 
-### 2. 安装依赖
+## 安装依赖
 
-* 克隆或下载你的 Jekyll 项目到本地。
-* 在项目目录下，运行以下命令（推荐使用Powershell）来安装所有依赖：
+```bash
+bundle install
+```
 
-  ```bash
-  bundle install
-  ```
+依赖会安装到项目内的 `vendor/bundle`。
 
-  这会根据 `Gemfile` 安装所有必需的 Gem 包。
+## 本地启动
 
-## 编译和查看网站
+```bash
+bundle exec jekyll serve --config _config.yml,_config.dev.yml --host 127.0.0.1 --port 4000
+```
 
-### 3. 编译网站并启动本地服务器
+打开 http://127.0.0.1:4000
 
-* 运行以下命令来启动 Jekyll 本地服务器：
+> 本站启用了 `jekyll-github-metadata`，本地首次构建需要能访问 GitHub 公开仓库信息；完全离线时请临时移除该插件。
 
-  ```bash
-  bundle exec jekyll serve
-  ```
+## 目录结构
 
-* 默认情况下，网站将会在 [http://localhost:4000](http://localhost:4000) 上运行。
+- `_config.yml` 生产配置；`_config.dev.yml` 本地开发覆盖
+- `_pages/` 普通页面（英文在根路径，中文在 `zh-cn/`）
+- `_research/` 研究方向集合（英文 + `zh-cn/` 中文）
+- `_data/` 数据源：`authors.yml`、`navigation.yml`、`ui-text.yml`
+- `_layouts/` 布局；`_includes/` 局部模板；`_sass/` 样式源码
+- `assets/` 编译后/静态资源；`images/` 图片
 
-## 修改网站内容
+## 修改内容
 
-### 4. 编辑网站内容
+- 页面内容在 `_pages/` 和 `_research/` 下编辑 Markdown。
+- 全局配置在 `_config.yml`。
+- 修改布局或样式时分别编辑 `_layouts/`、`_sass/`。
+- 中文 UI 文案在 `_data/ui-text.yml` 的 `zh-CN` 区块。
 
-* 你可以修改 `/_config.yml` 文件来配置网站的全局设置。
-* 修改网站的页面或文章时，编辑 `_posts` 目录中的 Markdown 文件（例如：`2025-12-14-example-post.md`）。
-* 如果需要修改布局，可以编辑 `/_layouts` 目录中的相关文件。
+## 提交
 
-### 5. 删除不需要的文件
-
-* 删除 `_posts` 中不需要的文章，或直接删除不再使用的页面和资源文件。
-
-## 提交到 GitHub
-
-### 6. 提交修改到 GitHub
-
-* 提交你的更改到 GitHub，使用以下命令：
-
-  ```bash
-  git add .
-  git commit -m "描述你的更改"
-  git push origin main
-  ```
-
-  确保将 `main` 替换为你的主分支名称。
-
-## 常见问题
-
-### 7. `bundle install` 时遇到问题
-
-* 如果在执行 `bundle install` 时遇到权限问题，尝试使用 `sudo`（Linux/macOS）或以管理员身份运行命令行（Windows）。
-
-### 8. 编译时出错
-
-* 确保你已经安装了所有的依赖。如果缺少某个 gem，运行 `bundle install` 重新安装。
-
-### 9. 如何卸载不需要的依赖
-
-* 编辑 `Gemfile` 移除不需要的 Gem 包，然后运行：
-
-  ```bash
-  bundle install
-  ```
+```bash
+git add .
+git commit -m "描述你的更改"
+git push origin main
+```

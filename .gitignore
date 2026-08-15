@@ -1,2 +1,9 @@
 _site/
-
+.bundle/
+vendor/
+.vscode/
+Gemfile.lock
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.DS_Store

@@ -1,4 +1,4 @@
-source "https://gems.ruby-china.com/"
+source "https://rubygems.org/"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -10,6 +10,9 @@ source "https://gems.ruby-china.com/"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
+gem "csv"
+gem "bigdecimal"
+gem "webrick"
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
