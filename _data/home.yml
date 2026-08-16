@@ -1,6 +1,7 @@
 en:
   honors_heading: "Honors"
   publications_heading: "Publications"
+  patents_heading: "Patents"
   reviewer_heading: "Reviewer Service"
   skills_heading: "Skills"
   honors:
@@ -64,6 +65,7 @@ en:
 zh-cn:
   honors_heading: "荣誉与奖励"
   publications_heading: "论文与成果"
+  patents_heading: "专利"
   reviewer_heading: "审稿期刊"
   skills_heading: "技能"
   honors:

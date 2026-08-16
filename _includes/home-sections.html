@@ -17,6 +17,8 @@
 
 {% endfor %}
 
+# {{ home.patents_heading }}
+
 {% for patent in home.patents %}
 * **{{ patent.title }}**, {{ patent.number }} ({{ patent.status }}), {{ patent.date }}
 

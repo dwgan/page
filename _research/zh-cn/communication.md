@@ -7,7 +7,6 @@ order: 3
 lang: zh-CN
 author: zh-cn
 navigation: main_zh
-lang_filter: true
 permalink: /zh-cn/research/communication/
 ---
 

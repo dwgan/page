@@ -3,22 +3,20 @@ en:
   title: "Dongwen Gan / 甘东文"
   name: "Dongwen Gan"
   avatar: "profile.png"
-  bio: "Master from Xidian University"
-  location: "Shenzhen, CN"
-  employer:
+  bio: "Xidian University -> STMicroelectronics"
+  location: "Shenzhen"
   googlescholar: "https://scholar.google.com/citations?user=y_LlXEoAAAAJ&hl=zh-CN&oi=ao"
   github: "dwgan"
-  email: "dwgan@stu.xidian.edu.cn"
+  email: "dwgan@foxmail.com"
   uri: "https://dwgan.blog.csdn.net"
 
 zh-cn:
   title: "Dongwen Gan / 甘东文"
   name: "甘东文"
   avatar: "profile.png"
-  bio: "西安电子科技大学硕士"
-  location: "深圳，中国"
-  employer:
+  bio: "西安电子科技大学 -> 意法半导体"
+  location: "深圳"
   googlescholar: "https://scholar.google.com/citations?user=y_LlXEoAAAAJ&hl=zh-CN&oi=ao"
   github: "dwgan"
-  email: "dwgan@stu.xidian.edu.cn"
+  email: "dwgan@foxmail.com"
   uri: "https://dwgan.blog.csdn.net"

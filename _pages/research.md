@@ -2,7 +2,6 @@
 title: "Research"
 permalink: /research/
 lang: en
-lang_filter: true
 layout: collection
 collection: research
 author_profile: false
@@ -13,4 +12,3 @@ sort_order: forward
 ---
 
 My recent research is primarily centered around those key areas: **Deep Compressed Sensing**, **Humanoid Robot** and **Intelligent Communication System**.
-

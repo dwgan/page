@@ -8,7 +8,7 @@ en:
     url: "/research/robotic/"
     order: 2
   - title: "Intelligent Communication"
-    excerpt: "High-reliable data storage, UWB-based wireless communication system"
+    excerpt: "High-reliable data storage and UWB-based wireless communication for aerospace cabins"
     url: "/research/communication/"
     order: 3
 
@@ -22,6 +22,6 @@ zh-cn:
     url: "/zh-cn/research/robotic/"
     order: 2
   - title: "智能通信"
-    excerpt: "面向航天舱内的 UWB 无线通信系统与高可靠硬件设计"
+    excerpt: "面向航天舱内的高可靠数据存储与 UWB 无线通信系统"
     url: "/zh-cn/research/communication/"
     order: 3

@@ -1,14 +1,14 @@
 ---
 title: "Compressed Sensing"
-excerpt: Applactions of compressed sensing, Perturbed compressed sensing, Deep compressed sensing
+excerpt: Applications of compressed sensing, Perturbed compressed sensing, Deep compressed sensing
 layout: single
 classes: wide
 order: 1
 ---
 
-This is my interesting adacemic-oriented research, which is target to explore science's boundaries rather than getting profit. Before I graduated, it is my main research direction, which is supervised by Prof. Lei Quan. After I graduated, I keep doing this research in the spare time.
+This is my academic-oriented research, which aims to explore science's boundaries rather than pursue profit. Before I graduated, it was my main research direction, supervised by Prof. Lei Quan. After I graduated, I keep doing this research in my spare time.
 
-For compressed sensing, I am had research experience on Applactions of compressed sensing, Perturbed compressed sensing, Deep compressed sensing.
+For compressed sensing, I have research experience on applications of compressed sensing, perturbed compressed sensing, and deep compressed sensing.
 
 ## Basis of compressed sensing
 
@@ -24,7 +24,7 @@ For compressed sensing, I am had research experience on Applactions of compresse
 
 ## Perturbed compressed sensing
 
-my recent interest is to develop perturbed compressed sensing theory, which not only consider the measurement noise but also take the noise of the sensing matrix into account.
+My recent interest is to develop perturbed compressed sensing theory, which not only considers measurement noise but also accounts for sensing-matrix noise.
 
 [Thesis](https://github.com/dwgan/page/releases/download/v1.0.0/default.pdf)
 

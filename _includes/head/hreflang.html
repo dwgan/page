@@ -1,15 +1,35 @@
 {% if page.lang %}
   {% assign html_lang = page.lang | downcase %}
+  {% assign self_path = page.url %}
   {% if html_lang contains "zh" %}
-    <link rel="alternate" hreflang="en" href="{{ page.url | replace_first: "/zh-cn", "" | prepend: site.url | append: site.baseurl }}">
-    <link rel="alternate" hreflang="zh-CN" href="{{ page.url | prepend: site.url | append: site.baseurl }}">
+    {% assign alt_path = page.url | replace_first: "/zh-cn", "" %}
   {% else %}
     {% if page.url == "/" %}
-      {% assign alt_url = "/zh-cn/" %}
+      {% assign alt_path = "/zh-cn/" %}
     {% else %}
-      {% assign alt_url = page.url | prepend: "/zh-cn" %}
+      {% assign alt_path = page.url | prepend: "/zh-cn" %}
     {% endif %}
-    <link rel="alternate" hreflang="en" href="{{ page.url | prepend: site.url | append: site.baseurl }}">
-    <link rel="alternate" hreflang="zh-CN" href="{{ alt_url | prepend: site.url | append: site.baseurl }}">
+  {% endif %}
+
+  {% assign alt_exists = false %}
+  {% for p in site.pages %}
+    {% if p.url == alt_path %}
+      {% assign alt_exists = true %}
+    {% endif %}
+  {% endfor %}
+  {% for d in site.documents %}
+    {% if d.url == alt_path %}
+      {% assign alt_exists = true %}
+    {% endif %}
+  {% endfor %}
+
+  {% if alt_exists %}
+    {% if html_lang contains "zh" %}
+      <link rel="alternate" hreflang="en" href="{{ alt_path | prepend: site.url | append: site.baseurl }}">
+      <link rel="alternate" hreflang="zh-CN" href="{{ self_path | prepend: site.url | append: site.baseurl }}">
+    {% else %}
+      <link rel="alternate" hreflang="en" href="{{ self_path | prepend: site.url | append: site.baseurl }}">
+      <link rel="alternate" hreflang="zh-CN" href="{{ alt_path | prepend: site.url | append: site.baseurl }}">
+    {% endif %}
   {% endif %}
 {% endif %}

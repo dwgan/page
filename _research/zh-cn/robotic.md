@@ -7,7 +7,6 @@ order: 2
 lang: zh-CN
 author: zh-cn
 navigation: main_zh
-lang_filter: true
 math: true
 permalink: /zh-cn/research/robotic/
 ---

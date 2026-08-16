@@ -10,6 +10,20 @@
   {% assign switch_text = '中文' %}
 {% endif %}
 
+{% assign switch_exists = false %}
+{% for p in site.pages %}
+  {% if p.url == switch_url %}
+    {% assign switch_exists = true %}
+  {% endif %}
+{% endfor %}
+{% for d in site.documents %}
+  {% if d.url == switch_url %}
+    {% assign switch_exists = true %}
+  {% endif %}
+{% endfor %}
+
+{% if switch_exists %}
 <li class="masthead__menu-item">
   <a class="site-nav__link" href="{{ switch_url }}">{{ switch_text }}</a>
 </li>
+{% endif %}
