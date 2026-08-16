@@ -1,9 +1,8 @@
 name: Build Jekyll site
 
+# Temporarily disabled automatic triggers while the GitHub account has a billing issue.
 on:
-  push:
-    branches: [main]
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
